@@ -1,8 +1,8 @@
 github_users:
-  - SKDDJ
+  - yimingshi-cs
 
 repo_description_lines_max: 2
 
 github_repos:
-  - SKDDJ/LoLDU
-  - SKDDJ/DiffLoRA_datasets
+  - yimingshi-cs/LoLDU
+  - yimingshi-cs/DiffLoRA_datasets

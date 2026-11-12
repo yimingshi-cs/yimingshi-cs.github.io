@@ -10,7 +10,7 @@ math: true
 robots: noindex
 sitemap: false
 ---
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309011440006.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309011440006.jpg)
 
 ## 第一章：引言
 
@@ -36,19 +36,19 @@ $$A<-> CCPs <-> B$$
 
 #### 2.1.1 即期外汇市场攻击路线
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072231059.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072231059.jpg)
 
 #### 2.1.2 远期外汇市场和外汇期货市场的攻击路线
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072232365.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072232365.jpg)
 
 #### 2.1.3 汇市和股市发动联合攻击的路线
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072233962.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072233962.jpg)
 
 ### 2.2 期货交易流程
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072234082.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072234082.jpg)
 
 ### 2.3 The Specification of the Futures Contract
 
@@ -98,7 +98,7 @@ Some terminology
 
 As the delivery month of a futures contract is approached, the futures price （期货价格）converges to the spot price （现货价格）of the underlying asset. When the delivery period is reached, the futures price equals – or is very close to – the spot price.
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072244313.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072244313.jpg)
 
 ### 2.5 Basis Risk
 
@@ -123,7 +123,7 @@ Some notation:
 
 #### 2.5.1 A Short Position Hedger
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072248201.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072248201.jpg)
 
 The asset that gives rise to the hedger’s exposure is sometimes different from the asset underlying the hedge. The basis risk is then usually greater.
 
@@ -140,29 +140,29 @@ if an investor is to sell one unit of the asset, she has to short h units of the
 
 $$\pi(t_0) = S(t_0) - hF(t_0,T)$$
 
-where position at time $t_1$ will be worth ![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072253178.jpg)
+where position at time $t_1$ will be worth ![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072253178.jpg)
 
 The change in the value of the position will therefore be, and a short position will be
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072255761.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072255761.jpg)
 
 In both cases the variance of $\Delta \pi$ is equal to
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072256920.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072256920.jpg)
 
 Proportion of the exposure that should optimally be hedged is
 
 $$h = \rho \frac{\sigma_S}{\sigma_F}$$
 
-Optimal Number of Contracts ![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072258385.jpg)
+Optimal Number of Contracts ![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072258385.jpg)
 
 #### Question
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072259598.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072259598.jpg)
 
 ### 2.6 The Capital Market Line(CML)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072300279.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072300279.jpg)
 
 ### 2.7 Hedging an Equity Portfolio
 
@@ -171,11 +171,11 @@ Stock index futures can be used to hedge a well-diversified equity portfolio. De
 - $V_A$: Current value of the portfolio
 - $V_F$ : Current value of one futures contract (the futures price times the contract size)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072312598.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072312598.jpg)
 
 ##### Example
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072313518.jpg) ![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072313688.jpg)![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072314474.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072313518.jpg) ![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072313688.jpg)![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072314474.jpg)
 
 ## 第三章：远期和期货价格 Forward and Futures Price 
 
@@ -186,10 +186,10 @@ Stock index futures can be used to hedge a well-diversified equity portfolio. De
 ### 3.2  Financial futures price
 
 #### 3.2.1 Measuring Interest Rates
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309191851793.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309191851793.jpg)
 
 #### 3.2.2 Continuous Compounding
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309191852910.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309191852910.jpg)
 
 ### 3.3 Some Inference
 $$\beta_{im} = \frac{\sigma_{im}}{\sigma_{m}^2} = \rho \frac{\sigma_i \sigma_m}{\sigma_{m}^2} =\rho \frac{ \sigma_i}{\sigma_m} = h^*$$
@@ -255,11 +255,11 @@ $$max(Xe^{-rT} - S, 0)$$
 
 * Time Value
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231717452.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231717452.jpg)
 
 #### 4.2.1 Effect of Variables on Option Pricing
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231718197.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231718197.jpg)
 
 
 ## 第五章：期权交易策略
@@ -288,7 +288,7 @@ $$ c \geq max(S_0  - Xe^{-rt},0)$$
 * Portfolio A: one call option with strike price X and an amount of cash equal to $Xe^{-rt}$
 * Portfolio B: one share
 
-![Question](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231727174.jpg)
+![Question](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231727174.jpg)
 
 ### 5.2 Put-Call Parity
 
@@ -299,17 +299,17 @@ $$ C + Xe^{-rT} = P + S$$
 ### 6.1 Binomial Trees Pricing Model
 
 #### 6.1.1 Risk-Neutral Valuation
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231732601.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231732601.jpg)
 
 #### 6.1.2 Self-Financing
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231733369.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231733369.jpg)
 
 
 ## 第七章：股价行为模型 Model of behavior of stock price
 
 ### 7.1 Markov Property and Wiener Process
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072217273.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072217273.jpg)
 
 > A Markov process （马尔可夫过程）is a particular type of stochastic process where only the present value of a variable is relevant for predicting the future
 
@@ -319,21 +319,21 @@ $$ C + Xe^{-rT} = P + S$$
 
 #### 7.1.2 A Wiener Process
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072222486.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072222486.jpg)
 
 ##### 7.1.2.1 Properties of a Wiener Process
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072223166.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072223166.jpg)
 
 $$dz = \epsilon \sqrt{dt}$$
 $E[(dz)] = 0$ and $var[(dz)] = dt$
 
 ### 7.2 Process for Stock Price
 #### 7.2.1 Ito Process
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072231614.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072231614.jpg)
 #### 7.2.2 An Ito Process for Stock Prices
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072232556.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072232556.jpg)
 
 ### 7.3 Ito’s Lemma
 
@@ -342,18 +342,18 @@ $E[(dz)] = 0$ and $var[(dz)] = dt$
 > Since a derivative security is a function of the price of the underlying asset and time, Ito’s lemma plays an important role in the analysis of derivative securities
 
 **1 A Taylor’s series expansion of G(x, t) gives**
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072236140.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072236140.jpg)
 
 **2 Substituting for $\Delta x$**
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072237711.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072237711.jpg)
 
 **3 The $\epsilon^2 \Delta t$ Term**
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072239952.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072239952.jpg)
 
 **4 Taking Limits**
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072240150.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072240150.jpg)
 
 
 
@@ -370,49 +370,49 @@ In a short period of time of length $\Delta t$, the return on the stock is norma
 $$\frac{\Delta S}{S} /~ \phi(\mu \Delta t, \sigma \sqrt{\Delta t})$$
 
 #### 8.1.2 Application of Ito’s Lemma to a Stock Price Process
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072248620.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072248620.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072252013.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072252013.jpg)
 
 #### 8.1.3 The lognormal Distribution
 
 It follows from this assumption that 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072253489.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072253489.jpg)
 
-![The Plot of Lognormal Distribution](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072254894.jpg)
+![The Plot of Lognormal Distribution](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072254894.jpg)
 
 ### 8.2 Derivation of The Black-Scholes-Merton Differential Equation
 
 #### 8.2.1 The Black-Scholes/Merton Model-Hedging Approach
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072259304.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072259304.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072300783.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072300783.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072300885.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072300885.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072301006.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072301006.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072301956.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072301956.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072301501.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072301501.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072302686.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072302686.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072302352.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072302352.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072303040.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072303040.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072303516.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072303516.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072303902.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072303902.jpg)
 
 
 #### 8.2.2 Properties of Black-Scholes/Merton Formula
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072304032.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072304032.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310072304618.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310072304618.jpg)
 
 
 ### 8.3 Implied Volatility
@@ -423,7 +423,7 @@ It follows from this assumption that
 ## 第九章：股票指数期权和货币期权 Options On Stock Indices, Currencies, and Futures
 
 ### 9.1 Options on stock providing dividend
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310172044599.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310172044599.jpg)
 
 #### 9.1.1 European Options on Stocks Providing a Dividend Yield
 
@@ -451,12 +451,12 @@ $$c + Xe^{-rT} = p + S_0e^{-qT}$$
 **American options Put Call Parity**
 $$S_0e^{-qT} - X \leq C - P \leq S_0 - Xe^{-rT}$$
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310172119014.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310172119014.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310172120430.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310172120430.jpg)
 
 ### 9.2 Options on stock indices
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310172124281.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310172124281.jpg)
 
 ### 9.3 Currency Options
 
@@ -466,9 +466,9 @@ $$S_0e^{-qT} - X \leq C - P \leq S_0 - Xe^{-rT}$$
 $$c + Ke^{-rT} = p + F_0e^{-rT}$$
 $$F_0e^{-rT} - X \leq C - P \leq F_0 - X e^{-rT}$$
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310172133997.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310172133997.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310172134257.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310172134257.jpg)
 
 Value of the portfolio at time T is 
 $$F_0u\Delta - F_0\Delta - f_u = -f$$
@@ -493,7 +493,7 @@ $p = \frac{1-d}{u-d}$
 
 > Delta ($\Delta$) （德尔塔对冲）is the rate of change of the option price with respect to the underlying asset. 
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310172142154.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310172142154.jpg)
 
 #### 10.2.1 Example 
 
@@ -535,13 +535,13 @@ $$\Theta = \frac{\delta \pi}{\delta t}$$
 $$\Gamma = \frac{\delta^2 \Pi}{\delta S^2}$$
 
 **Gamma Addresses Delta Hedging Errors Caused By Curvature**
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310172159784.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310172159784.jpg)
 
 ##### 10.3.2.1 Taylor Series Expansions and Hedge Parameters
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310172201810.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310172201810.jpg)
 
 ##### 10.3.2.2 Relationship  Among Delta, Gamma, and Theta
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310172203200.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310172203200.jpg)
 
 #### 10.3.3 Vega
 > Vega is the rate of change of the value of a derivatives portfolio with respect to volatility
@@ -551,7 +551,7 @@ Cause $Latex$ not support Vega using V substituting for Vega
 
 #### 10.3.4 [Example] Managing  Delta, Gamma, & Vega
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310172210937.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310172210937.jpg)
 
 #### 10.3.5 Rho
 > Rho is the rate of change of the value of a derivative with respect to the interest rate
@@ -565,17 +565,17 @@ $$\rho = \frac{\delta \Pi}{\delta r}$$
 #### 10.1.1 Types of VaR
 > VaR: 在正常市场条件下和一定的置信水平上，测算出给定时间内预期发生最坏情况的损失
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192241495.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192241495.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192243098.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192243098.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192244862.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192244862.jpg)
 
 #### 10.1.2 Example S.D. of Portfolio
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192246528.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192246528.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192247223.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192247223.jpg)
 
 ### 10.2 Trading Strategies Involving Options
 
@@ -583,33 +583,33 @@ $$\rho = \frac{\delta \Pi}{\delta r}$$
 
 ##### 10.2.1.1 Bull Spread Using Calls
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192249955.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192249955.jpg)
 
 ##### 10.2.1.2 Bull Spread Using Puts
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192250334.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192250334.jpg)
 
 ##### 10.2.1.3 Bear Spread Using Calls
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192251822.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192251822.jpg)
 
 ##### 10.2.1.4 Bear Spread Using Puts
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192251149.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192251149.jpg)
 
 ##### 10.2.1.5 Butterfly Spread Using Calls
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192252358.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192252358.jpg)
 
 ##### 10.2.1.6 Butterfly Spread Using Puts
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192253415.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192253415.jpg)
 
 ##### 10.2.1.7 Calendar Spread Using Calls
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192253707.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192253707.jpg)
 
 ##### 10.2.1.8 Calendar Spread Using Puts
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192253505.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192253505.jpg)
 
 #### 10.2.2 Combination ( Mixture of calls & puts )
 
@@ -617,20 +617,20 @@ $$\rho = \frac{\delta \Pi}{\delta r}$$
 
 > A straddle is appropriate when an investor is expecting a large move in a stock price but does not know in which direction the move will be
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192256536.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192256536.jpg)
 
 ##### 10.2.2.2 Strip
 
 > A strip consists of a long position in one call and two puts with the same strike price and expiration date
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192257945.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192257945.jpg)
 
 ##### 10.2.2.3 A Strangle （勒式）Combination
 
 > A strangle is a similar strategy to a straddle. The investor is betting that there will be a large price move, but is uncertain whether it will be an increase or a decrease
 
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310192258605.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310192258605.jpg)
 
  
 

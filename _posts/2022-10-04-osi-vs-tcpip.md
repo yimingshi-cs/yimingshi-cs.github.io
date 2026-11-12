@@ -14,7 +14,7 @@ sitemap: false
 
 计算机联网为了通信,就像人与人直接需要一个统一的交流标准(English),因此ARPA公司推出了著名的TCP/IP标准网络协议。
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202307291900647.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202307291900647.png)
 
 ## **什么是OSI,什么又是TCP/IP?**
 
@@ -24,7 +24,7 @@ sitemap: false
 
 一共七个层次,除了OSI七层模型,常见的网络层次划分还有TCP/IP四层和五层协议,它们之间的关系如图所示:
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202307291900631.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202307291900631.png)
 ### 1. 物理层(Physical Layer)
 
 该层是最底层,为上层协议提供了一个数据传输可靠的物理媒体,确保原始数据在各种物理媒体上的传输。

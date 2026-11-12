@@ -12,9 +12,9 @@ math: false
 ## 1. UniDiffuser
 
 ### 1.1 Architect
-![DiffusionEncoder](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308251937594.png)
+![DiffusionEncoder](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308251937594.png)
 
-![DiffusionDecoder](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308251937656.png)
+![DiffusionDecoder](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308251937656.png)
 
 
 ### 1.2 Optimization
@@ -56,9 +56,9 @@ decoder 阶段：
     2. 考虑加入 prior preservation 正则
     3. 考虑优化 clip text encoder 添加 modifier token
     4. 考虑加入 lora
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308251947394.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308251947394.png)
 
 ## 2. Stable Diffusion
 ### 2.1 Architect
 
-![StableDiffusion](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308251944420.png)
+![StableDiffusion](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308251944420.png)

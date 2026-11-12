@@ -10,7 +10,7 @@ math: true
 robots: noindex
 sitemap: false
 ---
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308311649113.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308311649113.jpg)
 
 ## 1 第一章：导论
 ### 1.1 金融内涵的演进与发展
@@ -37,7 +37,7 @@ sitemap: false
 
 #### 1.2.4 金融市场的功能
 实现资源的有效分配，关键是定价，定价的基础是信息。
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212282028330.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212282028330.png)
 
 
 ## 2 第二章：利率

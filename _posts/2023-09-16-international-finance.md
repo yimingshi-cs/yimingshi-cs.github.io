@@ -12,7 +12,7 @@ sitemap: false
 ---
 ## 1 第一章：课程概述
 
-Chapter1 Intro ![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308291709721.jpg)
+Chapter1 Intro ![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308291709721.jpg)
 
 TextBook: 10th 国际经济学下册
 
@@ -189,11 +189,11 @@ debit: unilitral transfer -
 
 credit: real stuff + 
 **Current Account**
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310151127052.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310151127052.jpg)
 
 
 **Financial Account**
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310151128783.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310151128783.jpg)
 - Assets(Assets Held Aboard)
 	- increase -
 - Liability(Foreign Assets Held in Home Country)
@@ -209,7 +209,7 @@ credit: real stuff +
 	* GBD
 	* Japanese Yunn
 * IMF Reserve Position
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310151129672.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310151129672.jpg)
 
 
 > Why a country needs hold official reserves?
@@ -224,10 +224,10 @@ credit: real stuff +
 
 
 ### 2.3 国际收支不平衡原因和影响
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310151132472.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310151132472.jpg)
 
 #### 2.3.1 Table of BOP
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310151135001.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310151135001.jpg)
 
 * Current Account
 * Capital & Fanancial Account

@@ -687,7 +687,7 @@ L
 
 ### __slots__
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202307291900639.jpeg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202307291900639.jpeg)
 
 ### @property
 

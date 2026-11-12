@@ -12,11 +12,11 @@ sitemap: false
 ---
 ## Lecture1 第一章：公司目标和治理
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308291710304.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308291710304.jpg)
 
 brealey 公司金融机械工业出版社两册 tirole 公司金融理论参考
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308291710167.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308291710167.jpg)
 
 ### 1.1 公司财务管理的目标
 
@@ -153,31 +153,31 @@ $$
 
 #### 2.3.2 效用函数
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121705580.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121705580.jpg)
 
 #### 2.3.3 CAPM 的理论推导
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121706830.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121706830.jpg)
 
 #### 2.3.4 CAPM的实证分析
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121708811.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121708811.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121709919.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121709919.jpg)
 
 #### 2.3.5 收益率
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121711403.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121711403.jpg)
 
 $$r_{i,t} = lnp_{i,t} - lnp_{i,t-1}$$
 
 #### 2.3.6 风险分解
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121712013.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121712013.jpg)
 
 ##### 2.3.6.1 市场风险
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121717461.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121717461.jpg)
 
 股指不能完全反应市场的 portfolio
 
@@ -185,7 +185,7 @@ if Size is small or B/M is big then maybe bankrupt
 
 ##### 2.3.6.2 折现率的确定
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121718955.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121718955.jpg)
 
 **关于折现率** 
 
@@ -193,7 +193,7 @@ if Size is small or B/M is big then maybe bankrupt
 
 ##### 2.3.6.3 市场风险的表征
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121724081.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121724081.jpg)
 
 ### 2.4 Fama-French三因子模型
 
@@ -227,7 +227,7 @@ Fama-MacBeth二步法的优点是可以同时考虑横截面和时间序列的�
 
 #### 2.4.2 数据匹配
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121720854.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121720854.jpg)
 
 1.  $\beta$ rolling 200/196个交易日
 2.  size 市值
@@ -249,7 +249,7 @@ $$NPV = （收入 - 成本 -折旧）\times （1-Tax \ Rate）+ 折旧$$
 
 ### 4.1 风险中性定价
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309271719721.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309271719721.jpg)
 
 #### 4.1.1 构造无风险投资组合（债券）
 > 买入$\Delta$份股票，卖空一份 Call，终端价值
@@ -284,15 +284,15 @@ $$E(S_T) = S_0e^{rT}$$
 $$E(S_T) = S_0[1+r+\beta(E(r_M) -r)]$$
 
 
-![二叉树模型](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309271730214.jpg)
+![二叉树模型](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309271730214.jpg)
 
-![Black-Scholes](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309271734445.jpg)
+![Black-Scholes](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309271734445.jpg)
 
 ### 4.2 实物期权的概念
 > 投资的灵活性
 
 #### 4.2.1 以Timing Option 类比 Call
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309271736252.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309271736252.jpg)
 
 #### 4.2.2 择时期权（Timing Option）
 > 企业的投资机会类似企业拥有的一个权利，在未来以一定价格获得或（出售）一项实物资产或投资计划
@@ -302,10 +302,10 @@ $$E(S_T) = S_0[1+r+\beta(E(r_M) -r)]$$
 ### 4.3 放弃期权、增长期权等各类型期权
 
 #### 4.3.1 放弃期权
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152312853.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152312853.jpg)
 
 #### 4.3.2 扩张期权
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152313582.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152313582.jpg)
 
 $$与投资相关 \to 投资新项目 \to 创新（低\beta）$$
 
@@ -421,4 +421,4 @@ where $r_t = \rho r_{t-1} + \epsilon_t$ and $|\rho| < 1$
 
 ## Appendix
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308291710890.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308291710890.jpg)

@@ -230,9 +230,9 @@ value := b["name"]
 ```
 
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202307291900623.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202307291900623.png)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202307291900576.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202307291900576.png)
 
 ## 指针(Pointer)
 
