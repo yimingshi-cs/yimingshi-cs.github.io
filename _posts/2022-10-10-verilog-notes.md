@@ -264,7 +264,7 @@ assign Cout = A & B; // 实现A与B的按位与运算
 
 ### 门电路实现
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202307291900655.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202307291900655.png)
 
 ## 《Verilog简明教程》读书笔记
 

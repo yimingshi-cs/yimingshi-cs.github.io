@@ -12,7 +12,7 @@ sitemap: false
 ---
 ## 第一章：概述
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308291710176.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308291710176.jpg)
 
 ### 1.1 操作系统概念引入
 * 操作系统
@@ -106,19 +106,19 @@ Program A "Run" wait "Run" ->
 ###### 三、 虚拟 Hypervisor
 一个物理实体 -> 多个逻辑上的对应物
 
-![企业级、云计算](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309051656188.jpg)
+![企业级、云计算](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309051656188.jpg)
 
-![个人用户](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309051657420.jpg)
+![个人用户](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309051657420.jpg)
 
 
 **SOTA: Container**
 
-![Docker、K8S](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309051657172.jpg)
+![Docker、K8S](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309051657172.jpg)
 
 
 **LibOS**
 
-![LibOS](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309051658835.jpg)
+![LibOS](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309051658835.jpg)
 
 
 
@@ -174,7 +174,7 @@ Program A "Run" wait "Run" ->
 2. 执行态（Running） ：进程占有了包括CPU在内的全部资源，并在CPU上运行
 3. 等待态（阻塞态，Waiting/Blocked）：进程因等待某种事件的发生而暂时不能运行的状态（即使CPU空闲，该进程也不可运行）。位于“等待队列”中
 
-![三状态](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309062203172.jpg)
+![三状态](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309062203172.jpg)
 
 #### 2.1.6 Five States
 Addition:
@@ -190,7 +190,7 @@ OS所需的关于该进程的信息保存在主存的进程表中，但进程自
 它不再有执行资格
 表格和其它信息暂时由辅助程序保留
 
-![五状态](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309062205976.jpg)
+![五状态](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309062205976.jpg)
 
 #### 2.1.7 Swapping & Suspend
 > Problems:
@@ -203,16 +203,16 @@ OS所需的关于该进程的信息保存在主存的进程表中，但进程自
 	* 激活（Activate/Resume）：把进程从外存转到内存
 * 那么古尔丹，代价是什么：I/O 操作比较耗时
 
-![具有挂起状态的进程状态图](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309062209418.jpg)
+![具有挂起状态的进程状态图](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309062209418.jpg)
 
 ##### 2.1.7.1 双挂起
 1. 就绪(Ready)：进程在内存且可立即进入运行状态（活动就绪）；
 2. 阻塞(Blocked)：进程在内存，并等待某事件的出现（活动阻塞）；
 3. 阻塞 / 挂起（Blocked, suspend）：进程在外存并等待某事件的出现；
 4. 就绪 / 挂起（Ready, suspend）：进程在外存，但只要进入内存，即可运行；
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309062210404.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309062210404.jpg)
 
-![实际Linux 系统](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309062211241.jpg)
+![实际Linux 系统](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309062211241.jpg)
 
 
 ### 2.2 进程调度
@@ -234,7 +234,7 @@ OS所需的关于该进程的信息保存在主存的进程表中，但进程自
 All-or-None
 
 #### 2.2.3 PCB(Process Control Block)
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309071635913.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309071635913.jpg)
 进程控制块的信息：
 * 进程标识符 pid
 惟一地标识一个进程：为每一个进程赋予一个惟一的数字标识符，方便系统使用。
@@ -242,9 +242,9 @@ All-or-None
 * 用户 uid
 ##### 2.2.3.1 进程控制块的组织方式
 * 链接
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309071637511.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309071637511.jpg)
 * 索引
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309071639732.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309071639732.jpg)
 
 
 ##### 2.2.3.2 Linux task_struct (partial)s
@@ -269,7 +269,7 @@ struct task_struct {
 
 
 ##### 2.2.3.3 进程在内存中的样子
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309071641876.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309071641876.jpg)
 
 ##### 2.2.3.4 homework1
 Linux内核有list.h，理解其设计原理，体会其设计思想
@@ -277,7 +277,7 @@ Linux内核有list.h，理解其设计原理，体会其设计思想
 
 
 ##### 2.2.3.5 进程组织
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309071643462.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309071643462.jpg)
 
 解释了为什么使用 ssh 连接远程服务器执行命令后退出 ssh 连接，会话内的进程会被 kill，因为所有会话中的父命令是 sshd
 
@@ -293,7 +293,7 @@ Linux内核有list.h，理解其设计原理，体会其设计思想
 	* 父进程等待，直到某个或者全部子进程执行完毕。
 
 #### 2.2.4 进程控制相关 API
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309071647392.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309071647392.jpg)
 
 ##### 2.2.4.1 关于 fork()-创建新进程
 - 调用格式： pid = fork()
@@ -362,14 +362,14 @@ global=5, local=4
 
 > 在大多数程序中，系统调用fork和exec是结合在一起使用的。父进程生成一个子进程，然后通过调用exec覆盖该子进程
 
-![本例若exec 执行成功则不会打印 ending](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309071657740.jpg)
+![本例若exec 执行成功则不会打印 ending](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309071657740.jpg)
 
-![InterestingQuestion](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309071659846.jpg)
+![InterestingQuestion](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309071659846.jpg)
 > "else { global += 2; }" is a pit. It won't be executed.
 
 #### 2.2.5 进程的终止
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309071801646.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309071801646.jpg)
 
 进程的终止过程：
 
@@ -383,20 +383,20 @@ global=5, local=4
 
 从PCB队列中移出PCB。
 
-![UNIX进程终止](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309072211069.jpg)
+![UNIX进程终止](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309072211069.jpg)
 
 #### 2.2.6 waitpid() 
 
-![example](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309141657202.jpg)
+![example](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309141657202.jpg)
 由于这个进程由当前会话创建，所以返回值 5 会在最后返回
-![output](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309141658216.jpg)
+![output](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309141658216.jpg)
 
 #### 2.2.7 进程切换
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309141707711.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309141707711.jpg)
 
 #### 2.2.8 Linux 中的系统调用过程
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309141708440.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309141708440.jpg)
 
 
 ### 2.3 线程
@@ -427,7 +427,7 @@ two features of process:
 	* 信号屏蔽
 	* 运行状态
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309141715455.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309141715455.jpg)
 
 
 #### 2.3.3 线程状态
@@ -490,7 +490,7 @@ int main (int argc, char *argv[])
 
 ### 2.4 处理机调度
 #### 2.4.1 调度方式
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231739012.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231739012.jpg)
 
 三种调度的触发事件
 * 长程：任务创建
@@ -498,16 +498,16 @@ int main (int argc, char *argv[])
 * 短程：时间片/事件发生/抢占
 
 #### 2.4.2 单处理机调度
-![三级调度](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231741618.jpg)
+![三级调度](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231741618.jpg)
 
 #### 2.4.3 调度原则
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231742772.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231742772.jpg)
 
 #### 2.4.4 调度算法
 
 ##### 2.4.4.1 FCFS
 先来先服务——FCFS(First-Come-First-Served)
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231744510.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231744510.jpg)
 评价
 * 非抢占调度
 * 对长进程有利，不利于短进程
@@ -520,7 +520,7 @@ int main (int argc, char *argv[])
 1. 非剥夺，当前进程结束后，选择所需处理时间最短的进程。
 2. 如果两个进程剩余时间相同，则使用FCFS来调度。
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231746915.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231746915.jpg)
 
 评价
 * 有利于短进程，提高了平均周转时间
@@ -533,7 +533,7 @@ int main (int argc, char *argv[])
 2. 时间片的长度从几ms~几百ms
 3. 专门为分时系统设计
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231748909.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231748909.jpg)
 时间片长度变化的影响
 * 过长：退化为FCFS，进程在一个时间片内执行完
 * 过短：用户的一次请求需要多个时间片才能处理完，上下文切换次数增加
@@ -570,26 +570,26 @@ w＝等待时间, s＝服务时间
 
 
 #### 2.4.5 实时调度
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231756345.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231756345.jpg)
 
 ##### 2.4.5.1 LLF
 LLF : Least Laxity First
 
 松弛度 = 完成截止时间 - 当前时间 - 剩余执行时间
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231757492.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231757492.jpg)
 类似 RR
 
 #### 2.4.6 多处理机调度
 
 ##### 2.4.6.1 SQMS(Single Queue Multi Scheduling)
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231759580.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231759580.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231800977.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231800977.jpg)
 
 ##### 2.4.6.2 MQMS(Multiple Queues Multi Scheduling)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231801813.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231801813.jpg)
 问题： 负载均衡 load imbalance
 
 解决方案： Migration & Work Stealing
@@ -614,20 +614,20 @@ Sony PlayStation 3 (PPU/SPU) $\to$ CELL
 > 2. 独占性
 > 3. 协作完成
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231807130.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231807130.jpg)
 
 ### 2.6 进程、死锁与饥饿
 #### 2.6.1 忙等、饥饿、死锁
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231808671.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231808671.jpg)
 
 ##### 2.6.1.1 活锁（livelock）
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309231808029.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309231808029.jpg)
 
 #### 2.6.2 Dekker's algorithm
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309271938692.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309271938692.jpg)
 
 #### 2.6.3 Peterson's algorithm
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309271939542.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309271939542.jpg)
 
 #### 2.6.4 硬件方法
 
@@ -639,14 +639,14 @@ Sony PlayStation 3 (PPU/SPU) $\to$ CELL
 > 原子性：all or nothing
 ##### 2.6.4.1 Test & Set
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309271943372.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309271943372.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309271946187.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309271946187.jpg)
 
 ##### 2.6.4.2 Exchange
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309271946906.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309271946906.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309271948489.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309271948489.jpg)
 
 #### 2.6.5 信号量(Semaphore)
 > 原理： 多进程通过信号传递协调工作，根据信号指示停止执行（阻塞等待）或者向前推进（唤醒）
@@ -660,11 +660,11 @@ Sony PlayStation 3 (PPU/SPU) $\to$ CELL
 	* signal(s): 释放资源，并激发信号
 
 ##### 2.6.5.1 整数型信号量
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309271952246.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309271952246.jpg)
 
 ##### 2.6.5.2 记录型信号量
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309271954336.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309271954336.jpg)
 
 #### 2.6.6 管程 Monitor
 > 共享资源用共享数据结构表示，资源管理程序用对该数据结构进行操作的一组过程来表示
@@ -699,12 +699,12 @@ csignal(x)时，如果等待x的队列为空，则信号无任何作用（丢失
 图书馆有N个座位，一张登记表，要求：
 - 读者进入时需先登记，取得座位号；
 - 出来时注销
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152139313.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152139313.jpg)
 
 ##### 2.6.7.3 公交车场景
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152140166.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152140166.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152141457.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152141457.jpg)
 
 #### 2.6.8 经典同步问题
 
@@ -715,20 +715,20 @@ csignal(x)时，如果等待x的队列为空，则信号无任何作用（丢失
 
 1. 无限缓冲（Infinite Buffer）
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152143241.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152143241.jpg)
 
 方案
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152143431.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152143431.jpg)
  
  2. 有限循环/环形缓冲区
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152145681.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152145681.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152146906.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152146906.jpg)
 
 
 3. 有限循环P/V操作
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152147194.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152147194.jpg)
 
 ##### 案例
 有3个进程PA，PB和PC合作解决文件打印问题：
@@ -738,14 +738,14 @@ csignal(x)时，如果等待x的队列为空，则信号无任何作用（丢失
 
 请用P，V操作来保证文件的正确打印。
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152153410.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152153410.jpg)
 
 **sem**
 1. empty1，empty2：分别表示缓冲区1及缓冲区2是否为空，初值为1。
 2. full1，full2：分别表示缓冲区1及缓冲区2是否有记录可供处理，初值为0。
 3. mutex1，mutex2：分别表示缓冲区1及缓冲区2的访问控制，初值为1。
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152154737.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152154737.jpg)
 
 ##### 2.6.8.2 读者/写者问题 Readers-Writers Problem
 - 三个角色
@@ -765,7 +765,7 @@ csignal(x)时，如果等待x的队列为空，则信号无任何作用（丢失
 - readcount：统计同时读数据的Readers个数
 - mutex：对变量readcount互斥算术操作
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152157502.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152157502.jpg)
 
 2. 写者优先
 
@@ -774,7 +774,7 @@ csignal(x)时，如果等待x的队列为空，则信号无任何作用（丢失
 - writecount：用于控制rsem信号量
 - mwc：信号量，控制对writecount的互斥加减操作
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152200197.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152200197.jpg)
 
 > P(z)多此一举
 
@@ -801,7 +801,7 @@ int nas = N;
 ```
 
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152210282.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152210282.jpg)
 
 ##### 2.6.8.4 哲学家就餐问题 Dinning Philosopher Problem
 - 5个哲学家围坐一张餐桌
@@ -809,17 +809,17 @@ int nas = N;
 - 思考或进餐
 - 进餐时必须同时拿到两边的餐叉
 - 思考时将餐叉放回原处
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152210254.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152210254.jpg)
 
 **服务生方法 Conductor/Waiter Solution**
 > 最多允许4个哲学家同时进食
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152225199.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152225199.jpg)
 
 **资源分级方案1 Resource hierarchy solution**
 - 为资源（餐叉）分配一个偏序（partial order）或者分级（hierarchy）的关系，所有资源都按此顺序获取，按相反顺序释放。
 - 给哲学家编号，奇数号的哲学家必须首先拿左边的筷子，偶数号的哲学家则反之。
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152227591.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152227591.jpg)
 **普通方案**
 为了避免死锁，把哲学家分为三种状态：
 1. 思考
@@ -828,7 +828,7 @@ int nas = N;
 
 如果取筷子，每次要么拿到两只筷子，要么一只不拿。
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152228458.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152228458.jpg)
 
 ```c
 void test(int i) 
@@ -856,11 +856,11 @@ void test(int i)
 	7. 内存映射文件（Memory Mapped File）
 
 #### 2.7.1 共享存储（Shared Memory） 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152301168.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152301168.jpg)
 
 #### 2.7.2 消息传递（Message Passing）
 通信模式
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152302945.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152302945.jpg)
 
 #### 2.7.3 消息缓冲队列通信机制 
 消息缓冲队列通信机制中的数据结构 
@@ -880,7 +880,7 @@ type PCB record
 end
 ```
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152304929.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152304929.jpg)
 
 #### 2.7.4 管道（Pipe）通信
 
@@ -895,7 +895,7 @@ end
 $ ls –l | more
 ```
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310152306847.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310152306847.jpg)
 
 ### 2.8 死锁避免
 

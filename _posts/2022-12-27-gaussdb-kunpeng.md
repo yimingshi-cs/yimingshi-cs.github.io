@@ -153,7 +153,7 @@ Segment
 ### 1.5.3. 高级语言访问GaussDB数据库的接口
 
 ## GitHub项目地址
-[HR-management-system](https://github.com/SKDDJ/HR-management-system)
+[HR-management-system](https://github.com/yimingshi-cs/HR-management-system)
 > Forked from Mr. Cai, an alumnus of the Internet Plus program in the class of 2020, and made some changes to the code.
 
 1. Change the datanode from remote OpenEuler to local host.

@@ -12,7 +12,7 @@ sitemap: false
 ---
 ## 彼得林奇著作读书笔记
 
-![Peter Lynch](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202307291935001.jpeg)
+![Peter Lynch](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202307291935001.jpeg)
 
 ### 一、长期投资
 

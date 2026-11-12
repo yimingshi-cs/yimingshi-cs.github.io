@@ -10,11 +10,11 @@ math: true
 robots: noindex
 sitemap: false
 ---
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308301038752.jpg) ![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308301039303.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308301038752.jpg) ![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308301039303.jpg)
 
 ## 成绩构成
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308301040122.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308301040122.jpg)
 
 ## Lecture 1 Intro 第一章：计量经济学引论
 
@@ -31,7 +31,7 @@ Econometrics = use of statistical methods to analyze economic data
 
 #### 1.1.1 Steps of Econometric Modeling
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308301047378.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308301047378.jpg)
 
 ### 1.2 计量经济学在金融中的应用
 
@@ -91,7 +91,7 @@ The disturbance term can capture a number of features:
 - Incorrect functional form
 - Purely random and totally unpredictable occurrences
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202308301055553.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202308301055553.jpg)
 
 #### 2.0.2 Single Equation Linear Model
 
@@ -102,15 +102,15 @@ components:
 
 ### 2.1 多元回归模型的建模与估计 Different Ways of Expressing the Multiple Linear Regression Model
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309111719018.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309111719018.jpg)
 
 #### 2.1.1 The OLS Estimator for the Multiple Regression Model
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309111724086.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309111724086.jpg)
 
 #### 2.1.2 Calculating the Standard Errors for the Multiple Regression Model
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309111727756.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309111727756.jpg)
 
 ### 2.2 回归模型的拟合优度
 
@@ -277,35 +277,35 @@ owing to $\hat \sigma^2$
 
 #### 2.3.8 Precision and Standard Errors
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309111735728.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309111735728.jpg)
 
 ### 2.4 假设检验 Hypothesis Testing
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121944650.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121944650.jpg)
 
 #### 2.4.1 One-Sided Hypothesis Tests
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121946221.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121946221.jpg)
 
 #### 2.4.2 The Probability Distribution of the Least Squares Estimators
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121948559.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121948559.jpg)
 
 #### 2.4.3 Testing Hypotheses: The Test of Significance Approach
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309121951487.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309121951487.jpg)
 
 #### 2.4.4 The Confidence Interval Approach to Hypothesis Testing
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309122002415.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309122002415.jpg)
 
 #### 2.4.5 Test Hypothesis
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309122004226.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309122004226.jpg)
 
 #### 2.4.6 The Errors That We Can Make Using Hypothesis Tests
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309122005883.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309122005883.jpg)
 
 ### 2.5 实践性教学环节
 
@@ -329,13 +329,13 @@ $$Z = Var(\hat{\beta}) = E[(X'X)^{-1}X'\epsilon X(X'X)^{-1}] $$
 $$=(X'X)^{-1}X'E(\epsilon \epsilon')X(X'X)^{-1} $$
 $$=(X'X)^{-1}X'\Omega X(X'X)^{-1}$$
 
-![case1](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310182037860.jpg)
-![case2](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310182037190.jpg)
-![case3](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310182038750.jpg)
+![case1](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310182037860.jpg)
+![case2](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310182037190.jpg)
+![case3](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310182038750.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310182051700.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310182051700.jpg)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310182051690.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310182051690.jpg)
 
 ### 3.2 多重共线性 Multicollinearity
 
@@ -355,11 +355,11 @@ $$x_{1i} = x_{2i} + w$$
 
 #### 3.2.3 Detection
 1. High Simple Correlation coefficients
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310182048701.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310182048701.jpg)
 
 2. High Variance Inflation Factors(VIFs)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310182048459.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310182048459.jpg)
 
 
 #### 3.2.4 Solutions to the Problems of Multicollinearity
@@ -403,12 +403,12 @@ $$H_0: \rho = 0 \ and\ H_1: \rho \neq 0$$
 The test statistic is calculated by
 $$DW = \frac{\sum_{t=2}^{T}(\hat{u_t} - \hat{u_{t-1}})^2}{\sum_{t=2}^T\hat{u_t}^2}$$
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310181950339.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310181950339.jpg)
 
 we can also write 
 $$DW \approx 2(1-\rho)$$
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310181955883.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310181955883.jpg)
 
 ##### 3.3.2.2 The Breusch-Godfrey Test
 
@@ -420,14 +420,14 @@ The Null and alternative hypotheses are:
 * $H_0: \rho_1 = 0 \ and\ \rho_2 = 0 \ and ... and\ \rho_r = 0$
 * $H_1: \rho_1 \neq 0 \ or \ \rho_2 \neq 0\ or ... or\ \rho_r \neq 0$
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310182004620.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310182004620.jpg)
 
 ##### 3.3.2.3 LM-Test
 
 
 #### 3.3.3 Remedies for Autocorrelation
 ##### 3.3.3.1 Quasi-differenced
- ![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310182030815.jpg)
+ ![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310182030815.jpg)
  
  ##### 3.3.3.2 GLS
  $$y_t = \beta x_t + \epsilon_t \ (1)$$
@@ -445,7 +445,7 @@ The Null and alternative hypotheses are:
  
  
  ##### 3.3.3.4 Newey-West Heteroscedasticity Autocorrelation Consistent Covariance Estimator
- ![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202310182035374.jpg)
+ ![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202310182035374.jpg)
  
  
 
@@ -539,7 +539,7 @@ split samples into 2 parts and compare the varirance of these two parts. The nul
 
 $$H_0 : \sigma_1^2 = \sigma_2^2$$
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309251646310.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309251646310.jpg)
 
 3.  Park-Test
 
@@ -547,13 +547,13 @@ $$e_i = Y_i - \hat{Y_i} = Y_i - (\hat{\beta_0} + \hat{\beta_1}X_{1i} +\hat{\beta
 
 $$ln(e_1^2) = \alpha_0 + \alpha_a lnZ_1 + u_i$$
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309251647591.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309251647591.jpg)
 
 4.  White-Test
 
 $$e_i^2 = \alpha + \beta(X_1 + X_2 + X_3 + X_1X_2 + ...) + u$$
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309251649078.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309251649078.jpg)
 
 > The 3 and 4 mean that there's omitted variable in error iterm.
 
@@ -593,7 +593,7 @@ $$\to^{\beta}$$
 
 依概率收敛于$(\sum\epsilon_iX_iX_i')$
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/202309251639698.jpg)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/202309251639698.jpg)
 
 1. Refomulating the Equation
 $$\frac{Y_i}{Pop} = \alpha_0 + \beta_1\frac{Reg_i}{Pop} + \beta_2 Price_i + \epsilon_i$$

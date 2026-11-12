@@ -68,7 +68,7 @@ sitemap: false
 
 #### 概率的公理化定义
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241344268.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241344268.png)
 
 #### 由公理化定义可以得到很多重要性质:
 
@@ -107,9 +107,9 @@ $$
 
 用来解决***事后问题***,结果已经发生,求哪个原因导致的
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241346990.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241346990.png)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241347006.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241347006.png)
 
 #### 独立的定义和证明
 
@@ -117,17 +117,17 @@ $P(AB)=P(A)P(B)$
 
 #### 三个相互独立的证明:
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241347058.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241347058.png)
 
 ---
 
 ## 第二章 随机变量及其分布
 
-![image-20221224135157803](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241351878.png)
+![image-20221224135157803](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241351878.png)
 
 #### 随机变量的定义
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241352318.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241352318.png)
 
 #### 随机变量
 
@@ -143,11 +143,11 @@ F(x) = P{X<=x} = P{$\omega$: X($\omega$) <= x}
 
 为随机变量X的分布函数
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241352465.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241352465.png)
 
 #### 分布函数三条性质:
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241352667.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241352667.png)
 
 最后讲**混合型随机变量**，一个陀螺，一半刻1，一半刻0-1连续的数字，落地数字的分布律，要证明分布函数既不连续也不离散：
 
@@ -178,17 +178,17 @@ remember 超几何分布(不放回)的极限条件就是二项分布
 
 ### 独立重复实验
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241353321.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241353321.png)
 
 ### 伯努利概型
 
-![image-20221224135403194](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241354330.png)
+![image-20221224135403194](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241354330.png)
 
 ### 几何分布
 
-![image-20221224135412126](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241354236.png)
+![image-20221224135412126](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241354236.png)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241354236.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241354236.png)
 
 这个性质个人理解就是每个事件相互独立互不影响,因此就没有所谓的"后效性"
 
@@ -355,7 +355,7 @@ $\phi(x;\mu,\sigma^2)$
 
 ##### 还有个挺常用的公式：
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241403177.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241403177.png)
 
 ---
 
@@ -387,7 +387,7 @@ $$
 
 #### 联合分布函数的性质
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241406754.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241406754.png)
 
 最后一条还挺重要的，叫做相容性。
 
@@ -476,9 +476,9 @@ $$f'_Z(z) = \int_{-\infty}^{+\infty}f(x,z-x)dx$$
 
 $$=\int_{-\infty}^{+\infty}f(z-y,y)dy$$
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241407561.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241407561.png)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241407936.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241407936.png)
 
 ---
 
@@ -530,7 +530,7 @@ $$f_Y(y) = \int_{-∞}^{+∞} f(x,y)dx$$
 
 用到了二重积分
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241412037.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241412037.png)
 
 $$P\{a<x\leq b | Y = y\} = \int_a^b f_{X|Y}(x|y)dx$$
 
@@ -582,7 +582,7 @@ $P\{X+1<Y或X>Y+2\}$
 
 有一个看起来很复杂的公式:
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241412299.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241412299.png)
 
 然后有(X,Y)服从二维正态分布,记为$(X,Y)~N(\mu_1,\sigma_1^2;\mu_2,\sigma_2^2;ρ)$
 
@@ -600,7 +600,7 @@ $P\{X+1<Y或X>Y+2\}$
 
 ### case3 二维连续型函数的分布
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241413912.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241413912.png)
 
 #### 两个结论↑
 
@@ -679,7 +679,7 @@ $$
 | $x_1-x_2$与$x_1+x_2$ | 无法判断相互独立关系 |
 
 
-![image-20221224140854803](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241408235.png)
+![image-20221224140854803](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241408235.png)
 
 ---
 
@@ -693,11 +693,11 @@ $P\{Y\geq y|X  = x\}$为“当X = x”时，Y的条件分布函数，记为$F_{Y
 
 条件密度概率公式的推导中间用了拉格朗日定理：
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241414490.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241414490.png)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241415658.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241415658.png)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241415582.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241415582.png)
 
 ---
 
@@ -705,9 +705,9 @@ $P\{Y\geq y|X  = x\}$为“当X = x”时，Y的条件分布函数，记为$F_{Y
 
 主要内容: $h(x_1,x_2,...,x_n)$确定Y
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241416575.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241416575.png)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241416874.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241416874.png)
 
 区间的开闭需要注意
 
@@ -719,7 +719,7 @@ $$P\{Y = y_j\} = P\{g(X) = y_j\} = \sum_{x_i \in S_j}P\{X = x_i\} , j = 1,2,...$
 
 ##### 离散卷积公式
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241417612.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241417612.png)
 
 p一样,相互独立的二项分布加在一起也是二项分布,所以二项分布是具有可加性的分布
 
@@ -747,7 +747,7 @@ $$F_Y(y) = P\{g(X) \leq y \} = \int_{X|g(x) \leq y} f_X(x)dx$$
 
 #### 常见分布的期望与方差
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241418058.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241418058.png)
 
 ---
 
@@ -795,7 +795,7 @@ $E(Y) = E[g(X)] = \int_{-\infty}^{+\infty}g(x)f_X(x)dx$
 
 如果随机变量相互独立,不仅$f(x,y) = f_X(x)f_Y(y)$,而且期望$E(XY) = E(X)E(Y)$
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241420926.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241420926.png)
 
 #### 随机变量期望的性质
 
@@ -813,13 +813,13 @@ $E(Y) = E[g(X)] = \int_{-\infty}^{+\infty}g(x)f_X(x)dx$
 - 刻画了随机变量X相对数学期望的偏离程度
 - 方差是随机变量X关于任何值的偏离程度的最小值(当然,关于自身数学期望的偏离程度最小)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241419858.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241419858.png)
 
 - $D(X)\geq0$
 
 #### 关于离散型和连续型的计算
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241420968.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241420968.png)
 
 #### 常用计算公式
 
@@ -830,18 +830,18 @@ $$D(X) = E(X^2) - [E(X)]^2$$
 - $E(c) = c, D(c) = 0$
 - $E(cX) = cE(X), D(cX) = c^2D(X)$
 
-  ![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241421030.png)
+  ![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241421030.png)
 - $D(X)=0\iff P{X=E(X)}=1$
 
 #### Chebyshev不等式
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241421067.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241421067.png)
 
 - 证明倒很简单,就一个简单的放缩
 
 #### 随机变量X的标准化变形
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241421749.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241421749.png)
 
 ---
 
@@ -880,7 +880,7 @@ $$I(n) = E[X^n] = \int_{-\infty}^{+\infty} x^n \frac{1}{\sqrt{2\pi}\sigma }e^{-\
 
 协方差,相关系数就是描述随机变量之间相互关系的数字特征
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241424102.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241424102.png)
 
 #### 协方差
 
@@ -943,7 +943,7 @@ $$\rho_{XY} = \frac{Cov(X,Y)}{\sqrt{D(X)} \sqrt{D(Y)}}$$
 
 #### 协方差矩阵
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241424469.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241424469.png)
 
 性质:
 
@@ -1168,22 +1168,22 @@ $$
 - 解释了现实中哪些随机变量可以看为服从正态分布
 - 给出了概率的近似计算公式
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241429884.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241429884.png)
 
 ##### 独立同分布中心极限定理
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241429876.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241429876.png)
 
 - 产品检验
 
-  - ![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241429470.png)
+  - ![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241429470.png)
 - 产品测重
 
-  - ![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241430151.png)
+  - ![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241430151.png)
 
 ##### 棣莫佛\-拉普拉斯中心极限定理
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241430965.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241430965.png)
 
 - 航船的稳定性
 - 报亭售报问题
@@ -1196,7 +1196,7 @@ $$
 
 ##### 总体与个体
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241430001.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241430001.png)
 
 **总体分布**是指__数量指标__**X**的分布
 
@@ -1239,7 +1239,7 @@ $$
 
 为统计量的**统计值**
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241431315.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241431315.png)
 
 ---
 
@@ -1247,47 +1247,47 @@ $$
 
 标准正态分布
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241431614.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241431614.png)
 
 #### $\chi^2$(卡方)分布
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241431539.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241431539.png)
 
 上面的两个不用记,当然也记不住,***__重要的看下面__***
 
 #### 卡方分布的一个定理
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241432078.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241432078.png)
 
 #### 卡方分布的三条性质
 
 ##### 性质一:数字特征
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241432194.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241432194.png)
 
 ##### 性质二:可加性
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241432179.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241432179.png)
 
 ##### 性质三:大样本分位数$\chi^2_\alpha$
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241432208.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241432208.png)
 
 #### 自由度为n的t分布 T~t(n)
 
 又名学生氏分布--第一个研究者笔名是Student
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241432594.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241432594.png)
 
 服从标准正态分布的随机变量与 /符合卡方分布的随机变量自己的自由度的开方 的比值，符合T分布
 
 #### F分布  F~F(n1,n2)
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241433363.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241433363.png)
 
 两个服从标准正态分布的随机变量除以各自的自由度的商，符合F分布
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241433288.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241433288.png)
 
 ---
 
@@ -1295,11 +1295,11 @@ $$
 
 单正态总体的分布定理
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241433630.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241433630.png)
 
 定理1和3不做要求，用到矩阵变化
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241434708.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241434708.png)
 
 ---
 
@@ -1335,7 +1335,7 @@ $$
 
 令,.....
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241434441.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241434441.png)
 
 #### 极大似然估计(M.L.E.)
 
@@ -1351,11 +1351,11 @@ maximum likelihood estimation
 
 - 离散型总体分布
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241435823.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241435823.png)
 
 - 连续型总体分布
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241435676.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241435676.png)
 
 ---
 
@@ -1367,13 +1367,13 @@ maximum likelihood estimation
 
 相合性
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241435907.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241435907.png)
 
 ---
 
 ### case2 置信区间
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241436835.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241436835.png)
 
 一个例子搞定7，3和第八章
 
@@ -1385,18 +1385,18 @@ maximum likelihood estimation
 
 单正态总体四个问题
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241437168.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241437168.png)
 
 ---
 
 ## 第八章 假设检验
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241437791.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241437791.png)
 
 ---
 
 ## 第九章 回归分析
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212241438266.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212241438266.png)
 
 ---

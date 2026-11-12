@@ -62,21 +62,21 @@ sitemap: false
 
 #### 1.1.2.1. 直接的资金流动
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212282023975.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212282023975.png)
 
 红色箭头中有潜在的*搜索成本(Searching Cost)以及信用风险(Credit Risk)*
 
 #### 1.1.2.2. 通过"金融中介"的资金流动
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212282026076.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212282026076.png)
 
 #### 1.1.2.3. 通过"金融市场(Financial Market)"的资金流动
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212282027155.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212282027155.png)
 
 #### 1.1.2.4. 先通过"金融中介",再通过"金融市场"的资金流动
 
-![](https://raw.githubusercontent.com/SKDDJ/picgoimgbed/main/picgoimgbed/202212282028330.png)
+![](https://raw.githubusercontent.com/yimingshi-cs/picgoimgbed/main/picgoimgbed/202212282028330.png)
 
 ### 1.1.3. 金融市场的类型
 
