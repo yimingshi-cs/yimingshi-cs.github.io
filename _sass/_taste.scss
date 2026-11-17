@@ -340,6 +340,51 @@ html[data-theme="dark"] .cv .cv-org-logo-mono {
   filter: brightness(0) invert(1);
 }
 
+/* Narrow / mobile portrait: stack logo, date, and location above
+   full-width title and highlights. Two-column layout at 576px+
+   is unchanged. */
+@media (max-width: 575.98px) {
+  .cv .cv-entries > .list-group-item > .row {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .cv .date-column {
+    flex: 0 0 auto;
+    width: 100%;
+    min-width: 0;
+    max-width: none;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .cv .date-column .table-cv {
+    margin: 0;
+  }
+
+  .cv .date-column .location {
+    text-align: left;
+  }
+
+  .cv .cv-org-logo {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .cv .date-column + [class*="col-"] {
+    flex: 1 1 auto;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+  }
+
+  /* Drop the small-screen ml-1 indent so title and highlights
+     share the logo's left edge. */
+  .cv .cv-entries .ml-1 {
+    margin-left: 0;
+  }
+}
+
 .news .table {
   margin-bottom: 0;
 }
