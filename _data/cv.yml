@@ -41,8 +41,8 @@ cv:
         url: https://studio.dots.ai/
         logo: xiaohongshu.svg
         highlights:
+          - Led large-scale SFT and RL post-training for LLMs on ARC-AGI-2 and ARC-AGI-3, using over 1.4M H100-equivalent GPU-hours, and synthesized over 50B tokens of ARC-AGI-2/3 training data.
           - Open-weight SOTA (~76.8%) on [ARC Prize](https://arcprize.org/)’s verified ARC-AGI-2 with [dots3-note Preview](https://studio.dots.ai/dots/dots3-en.html).
-          - "Invited poster, ARC Prize Research Summit 2026 (Boston, 23 Oct 2026): *Reasoning and Learning Across Puzzles and Games* ([PDF](https://yiming-shi.com/assets/pdf/arc-prize-research-summit-2026-poster.pdf))."
 
       - company: Zhipu AI
         position: Research Intern
@@ -52,7 +52,7 @@ cv:
         url: https://z.ai
         logo: zai.svg
         highlights:
-          - Designed and open-sourced [GLM-V’s VLM reward system](https://github.com/zai-org/GLM-V/tree/main/glmv_reward), used in GLM-4.5V and GLM-4.1V-Thinking RL post-training.
+          - "Designed and open-sourced [GLM-V’s VLM reward system](https://github.com/zai-org/GLM-V/tree/main/glmv_reward), used in GLM-4.5V and GLM-4.1V-Thinking RL post-training: a modular verifier framework that integrates 20+ domain verifiers from multiple collaborators, spanning STEM, OCR and charts, grounding, video, and GUI agents."
 
       - company: TSAIL, Tsinghua University
         position: Research Intern
