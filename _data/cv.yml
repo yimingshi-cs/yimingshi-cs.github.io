@@ -41,8 +41,8 @@ cv:
         url: https://studio.dots.ai/
         logo: xiaohongshu.svg
         highlights:
-          - Led SFT and RL post-training of LLMs for ARC-AGI-2 and ARC-AGI-3, with over 1.3M GPU-hours of training experience. Built over 50B tokens of synthetic training data.
           - Open-weight SOTA (~76.8%) on [ARC Prize](https://arcprize.org/)’s verified ARC-AGI-2 with [dots3-note Preview](https://studio.dots.ai/dots/dots3-en.html).
+          - Led SFT and RL post-training of LLMs for ARC-AGI-2 and ARC-AGI-3, with over 1.3M GPU-hours of training experience. Built over 50B tokens of synthetic training data.
 
       - company: Zhipu AI
         position: Research Intern
