@@ -54,6 +54,7 @@
           </table>
         </div>
         <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
+          <div class="cv-entry-heading">
           {% capture position_title %}
             {% if entry.position %}{{ entry.position }}{% endif %}
           {% endcapture %}
@@ -78,6 +79,7 @@
               {{ entry.summary | markdownify | remove: '<p>' | remove: '</p>' }}
             </h6>
           {% endif %}
+          </div>
 
           {% if entry.highlights %}
             <ul class="items">

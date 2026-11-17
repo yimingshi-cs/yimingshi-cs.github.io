@@ -340,48 +340,50 @@ html[data-theme="dark"] .cv .cv-org-logo-mono {
   filter: brightness(0) invert(1);
 }
 
-/* Narrow / mobile portrait: stack logo, date, and location above
-   full-width title and highlights. Two-column layout at 576px+
-   is unchanged. */
+/* Narrow / mobile portrait: keep the two-column header (logo,
+   date, and location left; role, company, and summary right).
+   Only the highlight list drops below and spans the full width.
+   Layout at 576px+ is unchanged. */
 @media (max-width: 575.98px) {
   .cv .cv-entries > .list-group-item > .row {
-    flex-direction: column;
-    align-items: stretch;
+    display: grid;
+    grid-template-columns: 10.75rem minmax(0, 1fr);
+    grid-template-areas:
+      "date heading"
+      "items items";
+    align-items: start;
+    column-gap: 0;
+    row-gap: 0.35rem;
   }
 
   .cv .date-column {
-    flex: 0 0 auto;
-    width: 100%;
-    min-width: 0;
-    max-width: none;
-    align-items: flex-start;
-    text-align: left;
-  }
-
-  .cv .date-column .table-cv {
-    margin: 0;
-  }
-
-  .cv .date-column .location {
-    text-align: left;
-  }
-
-  .cv .cv-org-logo {
-    margin-left: 0;
-    margin-right: auto;
+    grid-area: date;
   }
 
   .cv .date-column + [class*="col-"] {
-    flex: 1 1 auto;
-    width: 100%;
-    max-width: none;
-    min-width: 0;
+    display: contents;
   }
 
-  /* Drop the small-screen ml-1 indent so title and highlights
-     share the logo's left edge. */
-  .cv .cv-entries .ml-1 {
-    margin-left: 0;
+  .cv .cv-entry-heading {
+    grid-area: heading;
+    min-width: 0;
+    overflow-wrap: break-word;
+    margin-top: 0.5rem; /* matches the column's mt-2, lost with contents */
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .cv .cv-entries ul.items {
+    grid-area: items;
+    width: auto;
+    max-width: none;
+    min-width: 0;
+    margin-top: 0;
+    /* 15px cancels the row's negative margin so the list starts
+       on the same left edge as the date-column content / logo box.
+       1.2rem keeps the disc inside the content box. */
+    padding-left: calc(15px + 1.2rem);
+    padding-right: 15px;
   }
 }
 
